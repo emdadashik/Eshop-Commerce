@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Roboto+Flex:opsz,wght@8..144,100;8..144,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    border-bottom: 1px solid dimgray;
+}
+
+.navbar-brand img{
+    width: 120px;
+}
+
+.navbar-nav ul li{
+    list-style-type: none;
+}
+
+.action-nav .nav-item .nav-link{
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+.search-form{
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.search-form input{
+    border-radius: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.search-btn{
+    border-radius: 30px;
+    padding: 6.5px 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--bs-orange);
+    color: white;
+    border: 0;
+}
+
+.slider{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(185, 185, 185, 0.103);
+}
+
+.buy-now-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: var(--bs-orange);
+}
+
+.cetagory-text h2{
+    padding-top: 30px;
+}
+
+.btn-outline-success{
+    background-color: var(--bs-orange);
+    padding: 6.5px 25px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    transition: .6s;
+}
+
+.card{
+    background-color: rgba(185, 185, 185, 0.103);
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.card img{
+    transition: .6s;
+}
+
+.card-title{
+    margin: 15px 0px;
+}
+
+.card:hover img{
+    transform: scale(1.15);
+}
+
+.banner{
+    padding: 30px 0px;
+}
+
+.item{
+    background-color: rgba(185, 185, 185, 0.103);
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.item .text h2{
+    font-size: 40px;
+}
+
+.item .text h6{
+    color: var(--bs-orange);
+}
+
+.item img{
+    width: 250px;
+    object-fit: contain;
+}
+
+.tutu{
+    position: absolute;
+    top: 174px;
+    left: 248px;
+}
+
+.promo-banner{
+    margin-bottom: 30px;
+}

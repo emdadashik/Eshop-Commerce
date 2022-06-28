@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop | Ecommerce Web Design</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/ecommerce-logo-png-11.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cetagories</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link">Shop</a>
+                  </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                  </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 action-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-cart4 position-relative">
+                            <span style="font-size: 12px" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">12</span>
+                        </i>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person"></i>
+                      </a>
+                      <ul class="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">login</a></li>
+                        <li><a class="dropdown-item" href="#">Register</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <section class="slider">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="container">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="font-size: 70px; font-weight: 800">
+                                order <span style="color: var(--bs-orange)">best</span> quality <span style="color: var(--bs-orange)">food</span>
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime velit accusamus, excepturi et fuga adipisci iure cumque eveniet illo totam?</p>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/product/f1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="font-size: 70px; font-weight: 800">
+                                order <span style="color: var(--bs-orange)">best</span> quality <span style="color: var(--bs-orange)">food</span>
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime velit accusamus, excepturi et fuga adipisci iure cumque eveniet illo totam?</p>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/product/f3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="font-size: 70px; font-weight: 800">
+                                order <span style="color: var(--bs-orange)">best</span> quality <span style="color: var(--bs-orange)">food</span>
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime velit accusamus, excepturi et fuga adipisci iure cumque eveniet illo totam?</p>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/product/f4.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="cetagory">
+      <div class="container">
+        <div class="cetagory-text text-center">
+          <h2>Cetagory Product</h2>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, repellendus.</p>
+        </div>
+       <div class="row">
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product22.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Carrot</h5>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product23.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Onion</h5>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product27.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Broccli</h5>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product28.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Garlic</h5>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div> 
+
+       </div>
+      </div>
+
+    </section>
+
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="item d-flex">
+              <div class="text">
+                <h6>Fress Vegitable</h6>
+                <h2>Order Fress Vegitable</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ut veniam laudantium, earum molestias quidem?</p>
+                <button class="btn-outline-success" >Order Now <i class="bi bi-arrow-right"></i> </button>
+              </div>
+              <img src="images/product/f1.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="item d-flex">
+              <div class="text">
+                <h6>Fress Fruit</h6>
+                <h2>Order Fress Fruits</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ut veniam laudantium, earum molestias quidem?</p>
+                <button class="btn-outline-success" >Order Now <i class="bi bi-arrow-right"></i> </button>
+              </div>
+              <img src="images/product/product3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product">
+
+      <div class="container">
+        <h4>Recently Added Product</h4> <hr>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product22.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Carrot</h5>
+              <h4>$200</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">Add to Cart <i class="bi bi-cart"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product23.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Organic Onion</h5>
+              <h4>$300</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product27.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Broccli</h5>
+              <h4>$100</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product28.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Garlic</h5>
+              <h4>$220</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div> 
+
+       </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="product">
+
+      <div class="container">
+        <h4>Most selled Product</h4> <hr>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product22.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Carrot</h5>
+              <h4>$200</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">Add to Cart <i class="bi bi-cart"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product23.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Organic Onion</h5>
+              <h4>$300</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product27.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Broccli</h5>
+              <h4>$100</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm">
+            <img src="images/product/product28.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Garlic</h5>
+              <h4>$220</h4>
+              <div class="star mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <button class="view-btn btn-outline-success">View all <i class="bi bi-arrow-right"></i> </button>
+            </div>
+          </div>
+        </div> 
+
+       </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="promo-banner position-relative">
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div>
+          <img src="images/banner.jpg" alt="" class="">
+          <h1 class="text-success tutu">Order Online Save time</h1>
+        </div>
+      </div>
+      
+    </div>
+    </section>
+
+    <section class="border-top my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 my-5">
+            <img src="images/ecommerce-logo-png-11.png" style="height: 40px;" alt="">
+            <h5 class="mt-2">Get The App</h5>
+            <p>Download our mobile app from play store and App store</p>
+            <img src="images/store1.png" alt="">
+            <img src="images/store2.png" alt="">
+          </div>
+          <div class="col-md-3 my-5">
+            <h4>Information</h4>
+            <ul>
+              <li>About us</li>
+              <li>Shipping policy</li>
+              <li>Terms & Condition</li>
+              <li>Private policy</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+          <div class="col-md-3 my-5">
+            <h4>User Area</h4>
+            <ul>
+              <li>My Account</li>
+              <li>My Cart</li>
+              <li>Login</li>
+              <li>Checkout</li>
+            </ul>
+          </div>
+          <div class="col-md-3 my-5">
+            <h4>Contact info</h4>
+            <p>19456875345</p>
+            <p>ahmed nogor, paikpara, mirpu-1, dhaka 1216</p>
+            <p><em>emdadashik11@gmail.com</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="d-flex justify-content-center">
+      <p>&copy; All Right Reserved by Emdad Hossain</p>
+    </footer>
+      <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
